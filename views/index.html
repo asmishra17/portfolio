@@ -9,13 +9,16 @@
     <title>Aditi's Portfolio</title>
     <style>
     .main {
-        width: 100%
+        width: 100%;
+        padding: 5px;
+        position: absolute;
+        z-index: 1
     }
 
     .navbar-brand {
-        color: #000000;
+        color: #c47374;
         font-weight: bold;
-        font-size: 33px;
+        font-size: 35px;
         font-family: 'Montserrat', sans-serif
     }
 
@@ -25,13 +28,69 @@
 
     .list {
         font-family: 'Montserrat', sans-serif;
+        color: #c47374;
         display: inline;
-        border-right: 1px solid;
+        border-right: 2px solid darkgoldenrod;
         padding: 0 2px 0 2px
     }
 
     .list:last-child {
         border-right: none
+    }
+
+    b {
+        color: darkgoldenrod;  
+    }
+
+    .navlist {
+        color: #c47374
+    }
+
+    .myFace {
+        border-radius: 50%;
+        height: 225px;
+        padding: 5px;
+        margin: 29% 0  0 75%;
+        float: right;
+        border: 2px solid darkgoldenrod;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .triangle {
+        position: absolute;
+        z-index: 2;
+        margin: auto;
+        top: 400px;
+        left: 0;
+        right: 0;
+        width: 137px;
+        height: 137px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        border-right: 4px solid darkgoldenrod;
+        border-bottom: 4px solid darkgoldenrod;
+    }
+
+        .triangle2 {
+        position: absolute;
+        z-index: 2;
+        margin: auto;
+        top: 400px;
+        left: 0;
+        right: 0;
+        width: 68.5px;
+        height: 68.5px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        border-right: 4px solid darkgoldenrod;
+        border-bottom: 4px solid darkgoldenrod;
     }
 
     </style>
@@ -41,23 +100,27 @@
     <nav class = 'navbar navbar-default'>
         <div class = 'container-fluid'>
             <div class = 'navbar-header'>
-                <a class = 'navbar-brand' href = '#'>ADITI MISHRA</a>
+                <a class = 'navbar-brand' href = '#'>ADI<b>T</b>I MISHRA</a>
             </div>
             <ul class = 'list-contain nav navbar-nav navbar-right'>
-                <li class = 'list'><a href = '#'>HOME</a></li>
-                <li class = 'list'><a href = '#'>PORTFOLIO</a></li>
-                <li class = 'list'><a href = '#'>CONTACT</a></li>
+                <li class = 'list'><a class = 'navlist' href = '#'>HOME</a></li>
+                <li class = 'list'><a class = 'navlist' href = '#'>PORTFOLIO</a></li>
+                <li class = 'list'><a class = 'navlist' href = '#'>CONTACT</a></li>
             </ul>
         </div>
     </nav>
     <!-- Navbar End -->
     <div class = 'container-fluid'>
-        <img class = 'main' src="../public/assets/images/main.jpeg" alt="main-image">
+        <img class = 'main' src='assets/images/main.jpeg' alt='main-image'>
+        <img class = 'myFace' src='assets/images/myFace.JPG' alt='myFace'>
+        <div class = 'triangle2'></div>
+        <div class = 'triangle'></div>
     </div>
     <div class = 'container'>
         <div class = 'row'>
             <div class = 'col-md-12'>
-                
+            <h1>Hello!</h1>
+            <p>My name is Aditi Mishra.  </p>
             </div>
         </div>
     </div>

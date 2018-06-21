@@ -4,16 +4,14 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-
-// serve static content for the app from the 'public' directory
+// serve static content from the public directory
 app.use(express.static('public'));
 
-app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// var exphbs = require('express-handlebars');
-// const db = require('./models');
 const routes = require('./controllers/portfolioController.js');
+
 routes(app);
 
 app.listen(PORT, function() {
