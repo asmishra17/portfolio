@@ -1,0 +1,113 @@
+.main {
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.navbar {
+    padding: none; 
+}
+
+.navbar-brand {
+    color: #c47374;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif
+}
+
+.list-contain {
+    display: inline
+}
+
+.list {
+    font-family: 'Montserrat', sans-serif;
+    color: #c47374;
+    display: inline;
+    border-right: 2px solid darkgoldenrod;
+    padding: 0 2px 0 2px
+}
+
+.list:last-child {
+    border-right: none
+}
+
+b {
+    color: darkgoldenrod;  
+}
+
+.navlist {
+    color: #c47374;
+    font-weight: bold;
+}
+
+.myFace {
+    border-radius: 50%;
+    height: 30%;
+    padding: 5px;
+    margin: 29% 0  0 75%;
+    float: right;
+    border: 2px solid darkgoldenrod;
+    position: absolute;
+    z-index: 2;
+}
+
+.triangle {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    top: 400px;
+    left: 0;
+    right: 0;
+    width: 137px;
+    height: 137px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 4px solid darkgoldenrod;
+    border-bottom: 4px solid darkgoldenrod;
+}
+
+.triangle2 {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    top: 400px;
+    left: 0;
+    right: 0;
+    width: 68.5px;
+    height: 68.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 4px solid darkgoldenrod;
+    border-bottom: 4px solid darkgoldenrod;
+}
+/* temporary fix */ 
+.aboutme {
+    margin-top: 45%;
+}
+
+.fas {
+    font-size: 10px;
+    color: darkgoldenrod;
+}
+
+.hello {
+    height: 20%;
+    text-align: center;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgoldenrod;
+}
+
+a {
+    color: #2b644f
+}
