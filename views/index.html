@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>Aditi's Portfolio</title>
     <style>
     .main {
         width: 100%;
         padding: 5px;
         position: absolute;
-        z-index: 1
+        z-index: 1;
+        border-radius: 30px;
+    }
+
+    .navbar {
+        padding: none; 
     }
 
     .navbar-brand {
@@ -43,12 +50,13 @@
     }
 
     .navlist {
-        color: #c47374
+        color: #c47374;
+        font-weight: bold;
     }
 
     .myFace {
         border-radius: 50%;
-        height: 225px;
+        height: 30%;
         padding: 5px;
         margin: 29% 0  0 75%;
         float: right;
@@ -92,9 +100,28 @@
         border-right: 4px solid darkgoldenrod;
         border-bottom: 4px solid darkgoldenrod;
     }
-
+    /* temporary fix */ 
     .aboutme {
-        display: inline-block
+        margin-top: 45%;
+    }
+
+    .fas {
+        font-size: 10px;
+        color: darkgoldenrod;
+    }
+
+    .hello {
+        height: 20%;
+        text-align: center;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: darkgoldenrod;
+    }
+
+    a {
+        color: #2b644f
     }
 
     </style>
@@ -120,15 +147,24 @@
         <div class = 'triangle2'></div>
         <div class = 'triangle'></div>
     </div>
-
+    
     <div class = 'container aboutme'>
         <div class = 'row'>
-            <div class = 'col-md-12'>
-            <h1 class = 'hello'>Hello!</h1>
-            <p>I'm Aditi Mishra - a Business Intelligence Analyst at MB Financial Bank in Chicago.  I'm a University of Wisconsin - Madison and Northwestern University Coding Boot Camp Alumna with a background in Economics, Applied Mathematics, Commercial Finance, Field Audit, Data Science, and the MERN stack of Web Development.  I am passionately curious, and strive to be a lifelong learner. (insert square)</p>
+            <div class = 'col-md-1'></div>
+            <div class = 'col-md-10'>
+                <!-- <img class = 'hello' src="assets/images/hello.jpg" alt="hello">
+                <br>
+                <br> -->
+                <p>Hello! I'm Aditi Mishra - a Business Intelligence Analyst at MB Financial Bank in Chicago.  I'm a University of Wisconsin - Madison and Northwestern University Coding Boot Camp Alumna with a background in Economics, Applied Mathematics, Commercial Finance, Field Audit, Data Science, and the MERN stack of Web Development.  Connect with me on GitHub, LinkedIn, Twitter, or send me a message by clicking <a href = "contact.html">here</a> <i class="fas fa-stop"></i>
+                </p>
+                <a class = 'social' href = 'https://github.com/asmishra17'><i class="fab fa-github"></i></a>
+                <a class = 'social' href = 'https://www.linkedin.com/in/asmishra/'><i class="fab fa-linkedin"></i></a>
+                <a class = 'social' href = 'https://twitter.com/asmishra93?lang=en'><i class="fab fa-twitter-square"></i></a>
             </div>
+            <div class = 'col-md-1'></div>
         </div>
     </div>
-
 </body>
+<script>
+</script>
 </html>
