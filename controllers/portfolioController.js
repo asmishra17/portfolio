@@ -12,6 +12,9 @@ module.exports = (app) => {
 
     app.get('/contact.html', function(req, res) {
         res.sendFile(path.join(__dirname, '../views/contact.html')) 
-    })
+    });
 
+    app.get('/portfolio.html', function(req, res) {
+        res.sendFile(path.join(__dirname, '../views/portfolio.html'))
+    });
 };
